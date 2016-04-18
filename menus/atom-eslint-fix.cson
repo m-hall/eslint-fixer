@@ -2,8 +2,8 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle atom-eslint-fix'
-      'command': 'atom-eslint-fix:toggle'
+      'label': 'Run eslint --fix'
+      'command': 'atom-eslint-fix:run'
     }
   ]
 'menu': [
@@ -13,8 +13,8 @@
       'label': 'atom-eslint-fix'
       'submenu': [
         {
-          'label': 'Toggle'
-          'command': 'atom-eslint-fix:toggle'
+          'label': 'Run eslint --fix'
+          'command': 'atom-eslint-fix:run'
         }
       ]
     ]

@@ -2,12 +2,9 @@
   "name": "atom-eslint-fix",
   "main": "./lib/atom-eslint-fix",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Runs eslint --fix on the current file.",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-eslint-fix:toggle"
-  },
   "repository": "https://github.com/atom/atom-eslint-fix",
   "license": "MIT",
   "engines": {
