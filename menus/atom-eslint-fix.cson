@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle atom-eslint-fix'
+      'command': 'atom-eslint-fix:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-eslint-fix'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'atom-eslint-fix:toggle'
+        }
+      ]
+    ]
+  }
+]
