@@ -1,22 +1,28 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
-  'atom-text-editor': [
-    {
-      'label': 'Run eslint --fix'
-      'command': 'atom-eslint-fix:run'
-    }
-  ]
-'menu': [
-  {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'atom-eslint-fix'
-      'submenu': [
+    'atom-text-editor': [
         {
-          'label': 'Run eslint --fix'
-          'command': 'atom-eslint-fix:run'
+            'label': 'Run eslint --fix'
+            'command': 'atom-eslint-fix:run'
         }
-      ]
     ]
-  }
+    '.tree-view .file': [
+        {
+            'label': 'Run eslint --fix'
+            'command': 'atom-eslint-fix:run-tree-view'
+        }
+    ]
+'menu': [
+    {
+        'label': 'Packages'
+        'submenu': [
+            'label': 'atom-eslint-fix'
+            'submenu': [
+                {
+                    'label': 'Run eslint --fix'
+                    'command': 'atom-eslint-fix:run'
+                }
+            ]
+        ]
+    }
 ]

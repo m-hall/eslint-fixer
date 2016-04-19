@@ -1,7 +1,7 @@
 {
   "name": "atom-eslint-fix",
   "main": "./lib/atom-eslint-fix",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Runs eslint --fix on the current file.",
   "keywords": [
   ],
