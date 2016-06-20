@@ -1,5 +1,5 @@
 {
-  "name": "atom-eslint-fix",
+  "name": "eslint-fixer",
   "main": "./lib/atom-eslint-fix",
   "version": "0.2.0",
   "description": "Runs eslint --fix on the current file.",
