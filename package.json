@@ -4,7 +4,7 @@
   "version": "0.3.0",
   "description": "Runs eslint --fix on the current file.",
   "keywords": [],
-  "repository": "https://github.com/m-hall/atom-eslint-fix",
+  "repository": "https://github.com/m-hall/eslint-fixer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
