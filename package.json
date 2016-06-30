@@ -1,7 +1,7 @@
 {
   "name": "eslint-fixer",
   "main": "./lib/atom-eslint-fix",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Runs eslint --fix on the current file.",
   "keywords": [],
   "repository": "https://github.com/m-hall/eslint-fixer",
