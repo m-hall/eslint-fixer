@@ -1,0 +1,16 @@
+{
+    "env" : {
+        "node" : true,
+        "es6": true
+    },
+    "globals": {
+        "atom": false
+    },
+    "rules" : {
+        "camelcase": 2,
+        "quotes": [2, "single"],
+        "no-underscore-dangle": 2,
+        "no-undef": 2,
+        "indent": [2, 4]
+    }
+}
